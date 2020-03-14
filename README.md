@@ -28,3 +28,6 @@ Api uses `IRI` strings instead of ids for relations for e.g.
 `application/json`, `application/ld+json` https://json-ld.org/ , `text/html`
 
 json ld specification is with hydra http://www.hydra-cg.com/ if you want to avoid it negotiate for `application/json`
+
+# Countries sync
+There is a command for sync countries from `https://restcountries.eu` which can be executed with `php bin/console sync:countries`
